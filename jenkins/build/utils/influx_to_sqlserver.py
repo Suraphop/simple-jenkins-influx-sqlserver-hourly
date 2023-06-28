@@ -139,7 +139,7 @@ class PREPARE:
                     '{result["status"]}', 
                     '{result["process"]}', 
                     '{result["message"]}', 
-                    '{result["error"]}'
+                    '{str(result["error"]).replace("'",'"')}'
                     )
                     """
                 )
