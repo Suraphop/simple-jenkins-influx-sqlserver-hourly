@@ -196,9 +196,9 @@ class INFLUX_TO_SQLSERVER(PREPARE):
                 values(
                     getdate(), 
                     '{row.data_timestamp}',
-                    '{row.my_str}',
-                    '{row.temp2}',
-                    '{row.tmp1}',
+                    '{row.D228}',
+                    '{row.D238}',
+                    '{row.D250}',
                     '{row.mc_no}',
                     '{row.process}'
                     )
